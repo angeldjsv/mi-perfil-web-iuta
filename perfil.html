@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Ángel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Mi perfil</h1>
+
+    <section>
+        <h2>Sobre mí</h2>
+        <p>Hola, soy Ángel, estudiante de informática actualmente cursando el sexto cuatrimestre. Entre mis principales intereses estaría el desarrollo web, la programación, al igual que todo lo relacionado al manejo de datos. También me gusta mucho el cine, la música, los videojuegos y los deportes.</p>
+    </section>
+
+    <section>
+      <h2>Experiencia</h2>
+      <p>A lo largo de mi carrera universitaria, cursos realizados y estudios personales he tenido la oportunidad de participar en proyectos relacionados con el desarrollo web y la programación. He trabajado en algunos proyectos académicos que me han permitido aplicar mis conocimientos en HTML, CSS, un poco de JavaScript, pero sobre todo he venido trabajando con Python. Actualmente estoy estudiando todo el tema relacionado a analisis de datos utilizando herramientas como Excel, MySQL.</p>
+    </section>
+
+    <section>
+      <h2>Educación</h2>
+      <p>→ Bachiller en ciencias graduado en el Liceo Bolivariano Alirio Arreaza Arreaza.</p> 
+      <p>→ Actualmente me encuentro estudiando informática en el IUTA.</p>
+    
+    <section id="contacto">
+        <h2>Contáctame</h2>
+        <form id="form-contacto">
+            <div class="campo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+            </div>
+          
+            <div class="campo">
+                <label for="email">Correo Electrónico:</label>
+                <input type="text" id="email" placeholder="ejemplo@correo.com">
+            </div>
+          
+            <div class="campo">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+            </div>
+          
+            <button type="submit" id="btn-enviar">Enviar Mensaje</button>
+        </form>
+      
+        <div id="mensaje-exito" style="display: none;">
+            <p>¡Gracias por tu mensaje! Los datos fueron enviados correctamente.</p>
+        </div>
+    </section>
+  </body>
+</html
+
