@@ -1,0 +1,14 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: cimg/node:16.10
+    steps:
+      - checkout
+      - run:
+          name: "Probando el Perfil de Informatica"
+          command: echo "El proyecto se ha integrado correctamente."
+workflows:
+  welcome:
+    jobs:
+      - build
