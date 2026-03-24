@@ -12,3 +12,5 @@ workflows:
   welcome:
     jobs:
       - build
+
+# Cambio para forzar CircleCI.
